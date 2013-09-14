@@ -30,9 +30,11 @@ arr.push('24');
 console.log(arr.slice());
 arr.push(24);
 console.log(arr.slice());
+console.log(Array.isArray(arr))
 // [42]
 // [42]
 // [42, 24]
+// true
 ```
 
 Events work great even with assignments.
