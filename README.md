@@ -1,4 +1,4 @@
-Array-Model
+Array-Model [![Build Status](https://travis-ci.org/tenphi/array-model.png)](https://travis-ci.org/tenphi/array-model)
 ===
 
 Extension of native Array object to make it a collection model. But it still real Array. So you can you can just wrap any exist Array in your project.
