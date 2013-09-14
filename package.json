@@ -1,0 +1,27 @@
+{
+  "name": "array-model",
+  "version": "0.0.1",
+  "description": "Extension of native Array object to make it a collection model",
+  "main": "array-model.js",
+  "scripts": {
+    "test": "mocha ./spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tenphi/array-model.git"
+  },
+  "keywords": [
+    "array",
+    "prototype",
+    "extension",
+    "model",
+    "collection"
+  ],
+  "devDependencies": {
+    "mocha": "~1.12.1",
+    "chai": "~1.7.2"
+  },
+  "author": "Andrey Yamanov <tenphi@gmail.com> (http://tenphi.me)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
