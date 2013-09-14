@@ -25,11 +25,14 @@ arr.on('add', function(val, pos, arr) {
 });
 
 arr.push(42);
-console.log(arr); // [42]
+console.log(arr.slice());
 arr.push('24');
-console.log(arr); // [42]
+console.log(arr.slice());
 arr.push(24);
-console.log(arr); // [42, 24]
+console.log(arr.slice());
+// [42]
+// [42]
+// [42, 24]
 ```
 
 Events work great even with assignments.
@@ -43,8 +46,8 @@ arr.on('remove', function(val, pos) {
     console.log(val, pos);
 });
 arr[1] = 4
-// 2, 1
-// 4, 1
+// 2 1
+// 4 1
 ```
 
 Array-Model provides useful getters for you!
@@ -54,8 +57,10 @@ var arr = [1,2,3].model();
 arr.get(function(val) {
     return val*val;
 });
-console.log(array.slice()); // [1,4,9]
-console.log(array[2]); // 9
+console.log(arr.slice());
+console.log(arr[2]);
+ // [1,4,9]
+ // 9
 ```
 
 See more examples in `spec.coffee`.
